@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build OpenWrt_redmi_AC2100
+name: Redmi_AC2100
 
 on:
   repository_dispatch:
