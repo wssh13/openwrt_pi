@@ -39,7 +39,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@20211107
+      uses: actions/checkout@main
 
     - name: Initialization environment
       env:
