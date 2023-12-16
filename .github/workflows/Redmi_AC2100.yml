@@ -39,7 +39,7 @@ jobs:
 
     steps:
     - name: Checkout
-      uses: actions/checkout@main
+      uses: actions/checkout@20211107
 
     - name: Initialization environment
       env:
@@ -82,7 +82,6 @@ jobs:
         chmod +x $DIY_P2_SH
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
-        git checkout 20211107
         rm -rf feeds/packages/lang/golang
         svn export https://github.com/sbwml/packages_lang_golang/branches/19.x feeds/packages/lang/golang
     - name: SSH connection to Actions
